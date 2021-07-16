@@ -10,6 +10,7 @@
     "react-router-dom": "5.0.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "react-scripts": "3.0.0"
   },
   "resolutions": {
@@ -22,7 +23,8 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "parser": "babel-eslint"
   },
   "browserslist": {
     "production": [
